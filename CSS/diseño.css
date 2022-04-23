@@ -7,11 +7,11 @@ body{
 
 .titulo{
     height: 400px;
-    background-image: url(../IMG/Fondo.jpeg);
+    background-image: url(../IMG/logo.jpg);
     backdrop-filter: 4px;
     background-size: cover;
     background-position: center;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0, 5);
     background-blend-mode: darken;
 }
@@ -21,7 +21,7 @@ body{
     margin-right: 10em;
     padding: 40px;
     justify-content: center;
-    border: 1px rgb(185, 182, 182) solid;
+    border: 10px rgb(185, 182, 182) solid;
     margin-top: 5em;
     margin-bottom: 5em;
 }
@@ -35,7 +35,8 @@ body{
 .container{
     margin-top: 20px;
     margin-bottom: 20ex;
-    margin-left: 125px;
+    margin-left: 150px;
+
 }
 .flex-fill{
     margin-right: 5em;
@@ -43,6 +44,7 @@ body{
 .footer{
     background-color: rgb(29, 29, 32);
     padding: 70px;
+    margin-top: 700px;
 }
 button{
     color: aliceblue;
@@ -54,4 +56,17 @@ button{
     margin-left: 12em;
     margin-right: 12em;
     padding: 40px;
+}
+.parrafo{
+    text-align: justify
+}
+.card{
+    border: 3px solid ; 
+    
+}
+.nav{
+    margin-left: 50em;
+}
+.btn btn-primary{
+    
 }
